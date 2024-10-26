@@ -8,9 +8,8 @@ for (let index = 0; index < b.length; index++) {
     console.log(element)
 }
 let array = [1,2,3]
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    console.log(element)
-    console.log(element+10)
-    
+let i = 0;
+while (i < 5) {
+    console.log(i)
+    i++
 }
